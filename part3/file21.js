@@ -42,3 +42,9 @@ const products = [
     category: "Laptop",
   },
 ];
+
+let category = "ProductId"
+let text = 1;
+
+const resultArray = products.find((product) => product.id === text);
+console.log(resultArray);
